@@ -1,0 +1,120 @@
+body {
+  background-color: #3b1566;
+  color: #d6d6ea;
+	object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cabecalho {
+  height: 100px;
+	background-color: #0b0b0b;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 80px;
+	border-bottom: 1px solid #282828;
+}
+
+.cabecalho .logo {
+	display: flex;
+	gap: 15px;
+}
+
+.cabecalho .logo img {
+  width: 90px;
+}
+
+.cabecalho .menu {
+	display: flex;
+	gap: 30px;
+}
+
+.cabecalho .menu li a {
+	padding: 30px;
+	color: #e8e8e8;
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: "Chalet";
+}
+
+.cabecalho .menu li a:hover {
+	border-bottom: 2px solid #fff;
+}
+
+
+button {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.container-aplicativos {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #d6d6ea;
+}
+
+.container-aplicativos img {
+  padding: 10px 0 0 0;
+}
+
+#informacoes-faixa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+
+#anterior, #proximo {
+  font-size: 3rem;
+}
+
+#play-pause {
+  font-size: 4rem;
+}
+
+#container-botoes {
+  width: 50vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-descricao{
+  background-color: #0b0b0b;
+	text-align: center;
+	padding: 20px 40px;
+  width: 100%;
+  margin:auto;
+}
+
+
+.container-descricao h1 {
+  font-size: 60px;
+  width: 700px; 
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.container-descricao h2 {
+  font-size: 40px;
+  width: 700px; 
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.container-descricao p {
+  padding: 19px;
+  font-size: 20px;
+}
+
+.container-descricao #canal {
+  font-size: 30px;
+}

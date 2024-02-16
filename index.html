@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="./src/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <title>Audiobook</title>
+</head> 
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="./src/img/logo.png" alt="Logo Audiobook">
+        </div>
+            <nav>
+           <ul class="menu">
+            <li>
+                <a href="#book">Book</a>
+            </li>
+            <li>
+                <a href="#descricao">Sobre</a>
+            </li>
+            <li>
+                <a href="https://youtube.com/@guriadashistorias?si=PYvL2RzSxP4xJDft" target="_blank">Youtube</a>
+            </li>
+           </ul>
+        </nav>
+    </header>
+    <main class="home">
+        <div class="container-aplicativos" id="book">
+            <img id="capa" src="./src/img/capa.jpg" alt="Capa livro Coraline" width="350">
+            <audio id="audio-capitulo" src="./src/audio/1.mp3"></audio>
+            <div id="informacoes-faixa">
+                <h2 id="capitulo">Capitulo 1</h2>
+                <h3 id="nome-autor">Neil Gaiman </h3>
+            </div>
+            <div id="container-botoes">
+                <button id="anterior" class="bi bi-skip-backward-fill"></button>
+                <button id="play-pause" class="bi bi-play-circle-fill"></button>
+                <button id="proximo" class="bi bi-skip-forward-fill"></button>
+                <input type="range" name="volume" id="volume">
+            </div>
+        </div>
+
+            <div class="container-descricao" id="descricao">
+                <h1>SOBRE</h1>
+                <h2>Sinopse</h2>
+                <p>Certas portas não devem ser abertas. E Coraline descobre isso pouco tempo depois de chegar com os pais à sua nova casa, um apartamento em um casarão antigo ocupado por vizinhos excêntricos e envolto por uma névoa insistente, um mundo de estranhezas e magia, o tipo de universo que apenas Neil Gaiman pode criar. Ao abrir uma porta misteriosa na sala de casa, a menina se depara com um lugar macabro e fascinante. Ali, naquele outro mundo, seus outros pais são criaturas muito pálidas, com botões negros no lugar dos olhos, sempre dispostos a lhe dar atenção, fazer suas comidas preferidas e mostrar os brinquedos mais divertidos. Coraline enfim se sente... em casa. Mas essa sensação logo desaparece, quando ela descobre que o lugar guarda mistérios e perigos, e a menina se dá conta de que voltar para sua verdadeira casa vai ser muito mais difícil ― e assustador ― do que imaginava.</p>
+                <h2>Fonte</h2>
+                <p>Todos os capitulos foram tirados do canal da "Guria das historias", credito total para ela e sua bela voz</p>
+                
+            </div>
+        </main>
+            <script src="./src/js/script.js"></script>
+    </body> 
+</html>
